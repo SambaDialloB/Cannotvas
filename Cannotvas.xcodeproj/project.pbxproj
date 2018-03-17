@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A22B2A49205DAF5E00BE1768 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22B2A48205DAF5E00BE1768 /* AppDelegate.swift */; };
+		A22B2A4B205DAF5E00BE1768 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22B2A4A205DAF5E00BE1768 /* ViewController.swift */; };
+		A22B2A4E205DAF5E00BE1768 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22B2A4C205DAF5E00BE1768 /* Main.storyboard */; };
+		A22B2A50205DAF5E00BE1768 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A22B2A4F205DAF5E00BE1768 /* Assets.xcassets */; };
+		A22B2A53205DAF5E00BE1768 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22B2A51205DAF5E00BE1768 /* LaunchScreen.storyboard */; };
+		A22B2A5E205DAF5E00BE1768 /* CannotvasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22B2A5D205DAF5E00BE1768 /* CannotvasTests.swift */; };
+		A22B2A69205DAF5E00BE1768 /* CannotvasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22B2A68205DAF5E00BE1768 /* CannotvasUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A22B2A5A205DAF5E00BE1768 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A22B2A3D205DAF5E00BE1768 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A22B2A44205DAF5E00BE1768;
+			remoteInfo = Cannotvas;
+		};
+		A22B2A65205DAF5E00BE1768 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A22B2A3D205DAF5E00BE1768 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A22B2A44205DAF5E00BE1768;
+			remoteInfo = Cannotvas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A22B2A45205DAF5E00BE1768 /* Cannotvas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cannotvas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A22B2A48205DAF5E00BE1768 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A22B2A4A205DAF5E00BE1768 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A22B2A4D205DAF5E00BE1768 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A22B2A4F205DAF5E00BE1768 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A22B2A52205DAF5E00BE1768 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A22B2A54205DAF5E00BE1768 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A22B2A59205DAF5E00BE1768 /* CannotvasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CannotvasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A22B2A5D205DAF5E00BE1768 /* CannotvasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CannotvasTests.swift; sourceTree = "<group>"; };
+		A22B2A5F205DAF5E00BE1768 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A22B2A64205DAF5E00BE1768 /* CannotvasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CannotvasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A22B2A68205DAF5E00BE1768 /* CannotvasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CannotvasUITests.swift; sourceTree = "<group>"; };
+		A22B2A6A205DAF5E00BE1768 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A22B2A42205DAF5E00BE1768 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A22B2A56205DAF5E00BE1768 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A22B2A61205DAF5E00BE1768 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A22B2A3C205DAF5E00BE1768 = {
+			isa = PBXGroup;
+			children = (
+				A22B2A47205DAF5E00BE1768 /* Cannotvas */,
+				A22B2A5C205DAF5E00BE1768 /* CannotvasTests */,
+				A22B2A67205DAF5E00BE1768 /* CannotvasUITests */,
+				A22B2A46205DAF5E00BE1768 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A22B2A46205DAF5E00BE1768 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A22B2A45205DAF5E00BE1768 /* Cannotvas.app */,
+				A22B2A59205DAF5E00BE1768 /* CannotvasTests.xctest */,
+				A22B2A64205DAF5E00BE1768 /* CannotvasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A22B2A47205DAF5E00BE1768 /* Cannotvas */ = {
+			isa = PBXGroup;
+			children = (
+				A22B2A48205DAF5E00BE1768 /* AppDelegate.swift */,
+				A22B2A4A205DAF5E00BE1768 /* ViewController.swift */,
+				A22B2A4C205DAF5E00BE1768 /* Main.storyboard */,
+				A22B2A4F205DAF5E00BE1768 /* Assets.xcassets */,
+				A22B2A51205DAF5E00BE1768 /* LaunchScreen.storyboard */,
+				A22B2A54205DAF5E00BE1768 /* Info.plist */,
+			);
+			path = Cannotvas;
+			sourceTree = "<group>";
+		};
+		A22B2A5C205DAF5E00BE1768 /* CannotvasTests */ = {
+			isa = PBXGroup;
+			children = (
+				A22B2A5D205DAF5E00BE1768 /* CannotvasTests.swift */,
+				A22B2A5F205DAF5E00BE1768 /* Info.plist */,
+			);
+			path = CannotvasTests;
+			sourceTree = "<group>";
+		};
+		A22B2A67205DAF5E00BE1768 /* CannotvasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A22B2A68205DAF5E00BE1768 /* CannotvasUITests.swift */,
+				A22B2A6A205DAF5E00BE1768 /* Info.plist */,
+			);
+			path = CannotvasUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A22B2A44205DAF5E00BE1768 /* Cannotvas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A22B2A6D205DAF5E00BE1768 /* Build configuration list for PBXNativeTarget "Cannotvas" */;
+			buildPhases = (
+				A22B2A41205DAF5E00BE1768 /* Sources */,
+				A22B2A42205DAF5E00BE1768 /* Frameworks */,
+				A22B2A43205DAF5E00BE1768 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cannotvas;
+			productName = Cannotvas;
+			productReference = A22B2A45205DAF5E00BE1768 /* Cannotvas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A22B2A58205DAF5E00BE1768 /* CannotvasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A22B2A70205DAF5E00BE1768 /* Build configuration list for PBXNativeTarget "CannotvasTests" */;
+			buildPhases = (
+				A22B2A55205DAF5E00BE1768 /* Sources */,
+				A22B2A56205DAF5E00BE1768 /* Frameworks */,
+				A22B2A57205DAF5E00BE1768 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A22B2A5B205DAF5E00BE1768 /* PBXTargetDependency */,
+			);
+			name = CannotvasTests;
+			productName = CannotvasTests;
+			productReference = A22B2A59205DAF5E00BE1768 /* CannotvasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A22B2A63205DAF5E00BE1768 /* CannotvasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A22B2A73205DAF5E00BE1768 /* Build configuration list for PBXNativeTarget "CannotvasUITests" */;
+			buildPhases = (
+				A22B2A60205DAF5E00BE1768 /* Sources */,
+				A22B2A61205DAF5E00BE1768 /* Frameworks */,
+				A22B2A62205DAF5E00BE1768 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A22B2A66205DAF5E00BE1768 /* PBXTargetDependency */,
+			);
+			name = CannotvasUITests;
+			productName = CannotvasUITests;
+			productReference = A22B2A64205DAF5E00BE1768 /* CannotvasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A22B2A3D205DAF5E00BE1768 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Samba;
+				TargetAttributes = {
+					A22B2A44205DAF5E00BE1768 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A22B2A58205DAF5E00BE1768 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A22B2A44205DAF5E00BE1768;
+					};
+					A22B2A63205DAF5E00BE1768 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A22B2A44205DAF5E00BE1768;
+					};
+				};
+			};
+			buildConfigurationList = A22B2A40205DAF5E00BE1768 /* Build configuration list for PBXProject "Cannotvas" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A22B2A3C205DAF5E00BE1768;
+			productRefGroup = A22B2A46205DAF5E00BE1768 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A22B2A44205DAF5E00BE1768 /* Cannotvas */,
+				A22B2A58205DAF5E00BE1768 /* CannotvasTests */,
+				A22B2A63205DAF5E00BE1768 /* CannotvasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A22B2A43205DAF5E00BE1768 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A22B2A53205DAF5E00BE1768 /* LaunchScreen.storyboard in Resources */,
+				A22B2A50205DAF5E00BE1768 /* Assets.xcassets in Resources */,
+				A22B2A4E205DAF5E00BE1768 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A22B2A57205DAF5E00BE1768 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A22B2A62205DAF5E00BE1768 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A22B2A41205DAF5E00BE1768 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A22B2A4B205DAF5E00BE1768 /* ViewController.swift in Sources */,
+				A22B2A49205DAF5E00BE1768 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A22B2A55205DAF5E00BE1768 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A22B2A5E205DAF5E00BE1768 /* CannotvasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A22B2A60205DAF5E00BE1768 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A22B2A69205DAF5E00BE1768 /* CannotvasUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A22B2A5B205DAF5E00BE1768 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A22B2A44205DAF5E00BE1768 /* Cannotvas */;
+			targetProxy = A22B2A5A205DAF5E00BE1768 /* PBXContainerItemProxy */;
+		};
+		A22B2A66205DAF5E00BE1768 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A22B2A44205DAF5E00BE1768 /* Cannotvas */;
+			targetProxy = A22B2A65205DAF5E00BE1768 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A22B2A4C205DAF5E00BE1768 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A22B2A4D205DAF5E00BE1768 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A22B2A51205DAF5E00BE1768 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A22B2A52205DAF5E00BE1768 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A22B2A6B205DAF5E00BE1768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A22B2A6C205DAF5E00BE1768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A22B2A6E205DAF5E00BE1768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Cannotvas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ios.Cannotvas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A22B2A6F205DAF5E00BE1768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Cannotvas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ios.Cannotvas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A22B2A71205DAF5E00BE1768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CannotvasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ios.CannotvasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cannotvas.app/Cannotvas";
+			};
+			name = Debug;
+		};
+		A22B2A72205DAF5E00BE1768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CannotvasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ios.CannotvasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cannotvas.app/Cannotvas";
+			};
+			name = Release;
+		};
+		A22B2A74205DAF5E00BE1768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CannotvasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ios.CannotvasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cannotvas;
+			};
+			name = Debug;
+		};
+		A22B2A75205DAF5E00BE1768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CannotvasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ios.CannotvasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cannotvas;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A22B2A40205DAF5E00BE1768 /* Build configuration list for PBXProject "Cannotvas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A22B2A6B205DAF5E00BE1768 /* Debug */,
+				A22B2A6C205DAF5E00BE1768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A22B2A6D205DAF5E00BE1768 /* Build configuration list for PBXNativeTarget "Cannotvas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A22B2A6E205DAF5E00BE1768 /* Debug */,
+				A22B2A6F205DAF5E00BE1768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A22B2A70205DAF5E00BE1768 /* Build configuration list for PBXNativeTarget "CannotvasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A22B2A71205DAF5E00BE1768 /* Debug */,
+				A22B2A72205DAF5E00BE1768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A22B2A73205DAF5E00BE1768 /* Build configuration list for PBXNativeTarget "CannotvasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A22B2A74205DAF5E00BE1768 /* Debug */,
+				A22B2A75205DAF5E00BE1768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A22B2A3D205DAF5E00BE1768 /* Project object */;
+}

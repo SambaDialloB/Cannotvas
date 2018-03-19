@@ -14,6 +14,7 @@
 		A22B2A53205DAF5E00BE1768 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22B2A51205DAF5E00BE1768 /* LaunchScreen.storyboard */; };
 		A22B2A5E205DAF5E00BE1768 /* CannotvasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22B2A5D205DAF5E00BE1768 /* CannotvasTests.swift */; };
 		A22B2A69205DAF5E00BE1768 /* CannotvasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22B2A68205DAF5E00BE1768 /* CannotvasUITests.swift */; };
+		A22B2A77205DB27900BE1768 /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22B2A76205DB27900BE1768 /* CanvasViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A22B2A64205DAF5E00BE1768 /* CannotvasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CannotvasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A22B2A68205DAF5E00BE1768 /* CannotvasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CannotvasUITests.swift; sourceTree = "<group>"; };
 		A22B2A6A205DAF5E00BE1768 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A22B2A76205DB27900BE1768 /* CanvasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				A22B2A48205DAF5E00BE1768 /* AppDelegate.swift */,
+				A22B2A76205DB27900BE1768 /* CanvasViewController.swift */,
 				A22B2A4A205DAF5E00BE1768 /* ViewController.swift */,
 				A22B2A4C205DAF5E00BE1768 /* Main.storyboard */,
 				A22B2A4F205DAF5E00BE1768 /* Assets.xcassets */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A22B2A4B205DAF5E00BE1768 /* ViewController.swift in Sources */,
+				A22B2A77205DB27900BE1768 /* CanvasViewController.swift in Sources */,
 				A22B2A49205DAF5E00BE1768 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
